@@ -255,7 +255,7 @@ fi
 #End_ip_code
 }
 ipinfo() {
-printf "\033[1;37mDo You Want To Get IP Or Host Informations [Y/N] : "
+printf "\033[1;37mDo You Want To Get IP Informations [Y/N] : "
 read ipinfo
 printf "\n"
 if [[ $ipinfo == "N" ]] || [[ $ipinfo == "n" ]] || [[ $ipinfo == "no" ]] || [[ $ipinfo == "No" ]];then
@@ -265,6 +265,9 @@ exit 0
 #exit
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
 infocode
+else 
+printf "\033[1;33mAre You Drinking There Is No More Then 2 Choices :(\n\n"
+exit 0 
 fi
 }
 check
