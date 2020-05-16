@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 #Coded By : Djawed Hammadi
 #FB : https://www.facebook.com/xline.dz
 #Github : https://github.com/Djawed-Hammadi
