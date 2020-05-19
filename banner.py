@@ -24,7 +24,7 @@ print ('''
 \033[0;31m         .-<-7\/\ ())                                
 \033[0;31m                //                                  \033[1;37mGITUHB : \033[0;32mDjawed-Hammadi
                                                               
-                                                    \033[1;37m[ \033[0;34mWILAIA SHIELD TEAM \033[1;37m]      
+                                                         
 ''')
 def Slowprint(banner):
     for dido in banner + '\n' :
