@@ -48,7 +48,7 @@ printf "\033[1;37mDo You Want To Scan Payload [Y/N] : "
 read choice
 printf "\n"
 if [[ $choice == "N" ]] || [[ $choice == "n" ]] || [[ $choice == "no" ]] || [[ $choice == "No" ]];then
-printf "\033[1;37mOK.."
+printf "\033[1;37mOK (;\n"
 exit 0 
 #exit
 elif [[ $choice == "Y" ]] || [[ $choice == "y" ]] || [[ $choice == "YES" ]] || [[ $choice == "yes" ]];then
@@ -87,7 +87,7 @@ printf "\n"
 if [[ $informa == "N" ]] || [[ $informa == "n" ]] || [[ $informa == "no" ]] || [[ $informa == "No" ]];then
 sleep 5 
 printf "\n"
-printf "\033[1;37mOK (;"
+printf "\033[1;37mOK (; \n"
 exit 0 
 #exit
 elif [[ $informa == "Y" ]] || [[ $informa == "y" ]] || [[ $informa == "YES" ]] || [[ $informa == "yes" ]];then
@@ -260,7 +260,7 @@ read ipinfo
 printf "\n"
 if [[ $ipinfo == "N" ]] || [[ $ipinfo == "n" ]] || [[ $ipinfo == "no" ]] || [[ $ipinfo == "No" ]];then
 sleep 5 
-printf "\033[1;37mOK (;"
+printf "\033[1;37mOK (;\n"
 exit 0
 #exit
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
@@ -275,5 +275,5 @@ debug
 scanner
 informations
 ipinfo
-
+#End
 
