@@ -23,6 +23,9 @@ printf "\033[0;32mDone..\n"
 sleep 5 
 clear
 fi
+if [[ -e xline ]]; then
+rm -rf xline
+fi
 }
 #Code :
 debug() {
@@ -35,24 +38,21 @@ printf "\033[0;32mInvailed Option ...Restart"
 bash Horus.sh
 elif [[ $payload != "" ]];then
 printf "\033[0;32m[#] Start Debuging ..."
-printf "\n\n"
-apktool d $payload > /dev/null;
+printf "\n"
+apktool d $payload -o xline > /dev/null;
 printf "\n\n"
 fi
 }
 scanner () {
-printf "\033[1;37mEnter Payload Folder Name Please : "
-read folder
-printf "\n\n"
 printf "\033[1;37mDo You Want To Scan Payload [Y/N] : "
 read choice
 printf "\n"
 if [[ $choice == "N" ]] || [[ $choice == "n" ]] || [[ $choice == "no" ]] || [[ $choice == "No" ]];then
-printf "\033[1;37mOK (;\n"
+printf "\033[1;37mOK.."
 exit 0 
 #exit
 elif [[ $choice == "Y" ]] || [[ $choice == "y" ]] || [[ $choice == "YES" ]] || [[ $choice == "yes" ]];then
-open= cd $folder/res/values/
+open= cd xline/res/values/
 sleep 3 
 spymax=$(grep '"a"' strings.xml)
 if [[ $spymax == "" ]];then
@@ -87,7 +87,7 @@ printf "\n"
 if [[ $informa == "N" ]] || [[ $informa == "n" ]] || [[ $informa == "no" ]] || [[ $informa == "No" ]];then
 sleep 5 
 printf "\n"
-printf "\033[1;37mOK (; \n"
+printf "\033[1;37mOK (;"
 exit 0 
 #exit
 elif [[ $informa == "Y" ]] || [[ $informa == "y" ]] || [[ $informa == "YES" ]] || [[ $informa == "yes" ]];then
@@ -260,7 +260,7 @@ read ipinfo
 printf "\n"
 if [[ $ipinfo == "N" ]] || [[ $ipinfo == "n" ]] || [[ $ipinfo == "no" ]] || [[ $ipinfo == "No" ]];then
 sleep 5 
-printf "\033[1;37mOK (;\n"
+printf "\033[1;37mOK (;"
 exit 0
 #exit
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
@@ -275,5 +275,6 @@ debug
 scanner
 informations
 ipinfo
-#End
+
+
 
