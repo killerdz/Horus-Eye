@@ -264,9 +264,42 @@ printf "\033[1;37mOK (;\n"
 exit 0
 #exit
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
+printf "\033[0;32m[\033[1;37m1\033[0;32m] \033[1;37m->> \033[1;33mHOST \n\n"
+printf "\033[0;32m[\033[1;37m2\033[0;32m] \033[1;37m->> \033[1;33mIP\n\n"
+printf "\033[1;37mPlease Enter Your Choice :"
+read kk
+if [[ $kk == "1" ]];then
+cd ../../..
+printf "\n"
+dido= chmod +x reverse.py && python3 reverse.py
+printf "\n"
+infocode
+elif [[ $kk == "2" ]];then
+printf "\n"
 infocode
 else 
+printf "No Option Are You Drinking :( \n"
+exit 0
+fi 
+else 
 printf "\033[1;33mAre You Drinking There Is No More Then 2 Choices :(\n\n"
+exit 0 
+fi
+}
+repet() {
+printf "\033[0;32mDo You Have Another Payload !! [Y/N] : "
+read have 
+if [[ $have == "N" ]] || [[ $have == "n" ]] || [[ $have == "no" ]] || [[ $have == "No" ]];then
+printf "\n"
+printf "\033[1;37mOk ! See You And Thanks For Using This Tool <3 "
+elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
+printf "\n"
+printf "\033[1;37mOk .. Restart !!"
+sleep 5 
+bash Horus.sh
+else 
+printf "\n"
+printf "No Option Are You Drinking :( \n"
 exit 0 
 fi
 }
@@ -275,6 +308,8 @@ debug
 scanner
 informations
 ipinfo
+repet
 #End
+
 
 
