@@ -37,7 +37,7 @@ if [[ $payload == "" ]];then
 printf "\033[0;32mInvailed Option ...Restart"
 bash Horus.sh
 elif [[ $payload != "" ]];then
-printf "\033[0;32m[#] Start Debuging ..."
+printf "\033[0;32m[#] Start Debuging ...\n"
 printf "\n"
 apktool d $payload -o xline > /dev/null;
 printf "\n\n"
@@ -266,7 +266,7 @@ exit 0
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
 printf "\033[0;32m[\033[1;37m1\033[0;32m] \033[1;37m->> \033[1;33mHOST \n\n"
 printf "\033[0;32m[\033[1;37m2\033[0;32m] \033[1;37m->> \033[1;33mIP\n\n"
-printf "\033[1;37mPlease Enter Your Choice :"
+printf "\033[1;37mPlease Enter Your Choice : "
 read kk
 if [[ $kk == "1" ]];then
 cd ../../..
