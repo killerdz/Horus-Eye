@@ -1,7 +1,7 @@
 # Horus-Eye 
 Reverse Engineering Script For Android Rat Payloads
 
-![](https://h.top4top.io/p_1592zjg5i1.png)
+![](https://j.top4top.io/p_1604dy40w1.png)
 
 # Installation
 ```
@@ -16,9 +16,9 @@ Reverse Engineering Script For Android Rat Payloads
 
 # Os : 
 
- Tested On : Kali Linux 2019.4
+Tested On : Kali Linux 2019.4 And 2020.2
 
-Work : All Linux Os
+Work On : All Linux Os 
 
 # Prerequisites
 
@@ -26,6 +26,6 @@ Work : All Linux Os
 
 # QUESTIONS
 
-https://www.facebook.com/djawedx23
+![](https://www.upload.ee/download/11756636/7bbd38ea058b17505df7/facebook_clipart_icom_10_G0R_icon.ico) : Djawed Hammadi
 
 #End
