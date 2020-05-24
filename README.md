@@ -26,6 +26,8 @@ Work On : All Linux Os
 
 # QUESTIONS
 
-![](https://www.upload.ee/download/11756636/7bbd38ea058b17505df7/facebook_clipart_icom_10_G0R_icon.ico) : Djawed Hammadi
+Facebook : facebook.com/djawedx23
+
+Twitter : twitter.com/XLINE49229295
 
 #End
