@@ -295,7 +295,8 @@ printf "\033[1;37mOk ! See You And Thanks For Using This Tool <3 "
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
 printf "\n"
 printf "\033[1;37mOk .. Restart !!"
-sleep 5 
+sleep 5
+cd ../../..
 bash Horus.sh
 else 
 printf "\n"
