@@ -32,7 +32,7 @@ Facebook : facebook.com/djawedx23
         
 Twitter : twitter.com/XLINE49229295
 
-Devloper :
+developer :
 
 Facebook : facebook.com/khalid.dz.589
 
