@@ -5,7 +5,7 @@ Reverse Engineering Script For Android Rat Payloads
 
 # Installation
 ```
-1. download : git clone https://github.com/killerdz/Horus-Eye
+1. download : git clone https://github.com/killerdz/Horus-Eye.git
 
 2. cd Horus-Eye
 
