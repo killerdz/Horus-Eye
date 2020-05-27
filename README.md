@@ -26,8 +26,14 @@ Devloped To Work On : Termux
 
 # QUESTIONS
 
-CODER : Facebook : facebook.com/djawedx23
-        Twitter : twitter.com/XLINE49229295
+CODER : 
+
+Facebook : facebook.com/djawedx23
+        
+Twitter : twitter.com/XLINE49229295
+
 Devloper :
-        Facebook : facebook.com/khalid.dz.589
+
+Facebook : facebook.com/khalid.dz.589
+
 #End
