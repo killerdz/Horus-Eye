@@ -5,7 +5,7 @@ Reverse Engineering Script For Android Rat Payloads
 
 # Installation
 ```
-1. download : git clone https://github.com/Djawed-Hammadi/Horus-Eye.git
+1. download : git clone https://github.com/killerdz/Horus-Eye
 
 2. cd Horus-Eye
 
@@ -16,18 +16,18 @@ Reverse Engineering Script For Android Rat Payloads
 
 # Os : 
 
-Tested On : Kali Linux 2019.4 And 2020.2
+Tested On : Termux
 
-Work On : All Linux Os 
+Devloped To Work On : Termux 
 
 # Prerequisites
 
-1. APKTOOL
+1. JADX
 
 # QUESTIONS
 
-Facebook : facebook.com/djawedx23
-
-Twitter : twitter.com/XLINE49229295
-
+CODER : Facebook : facebook.com/djawedx23
+        Twitter : twitter.com/XLINE49229295
+Devloper :
+        Facebook : facebook.com/khalid.dz.589
 #End
