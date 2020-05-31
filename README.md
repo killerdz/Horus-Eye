@@ -1,6 +1,16 @@
-# Horus-Eye 
-Reverse Engineering Script For Android Rat Payloads
+# Horus-Eye v2.0 [TeRMux]
 
+Reverse Engineering Script For Android Rat Payloads work With :
+
+1.SPYNOTE (INJECTED PAYLOAD ALSO)
+
+2.SPYMAX (INJECTED PAYLOAD ALSO)
+
+3.MOBIHOK (INJECTED PAYLOAD ALSO)
+
+4.METASPLOIT (tcp / http / https (meterpreter and shell payloads ))
+
+5.AHMYTH (INJECTED PAYLOAD ALSO)
 ![](https://e.top4top.io/p_161218yp41.jpg)
 
 # Installation
@@ -26,14 +36,15 @@ Devloped To Work On : Termux
 
 # QUESTIONS
 
-CODER : 
-
-Facebook : facebook.com/djawedx23
-        
-Twitter : twitter.com/XLINE49229295
-
-developer :
 
 Facebook : facebook.com/khalid.dz.589
+
+
+        
+
+
+
+
+
 
 #End
