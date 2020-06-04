@@ -277,7 +277,8 @@ printf "\n"
 printf "\033[1;37mOk .. Restart !!"
 sleep 3
 clear
-cd ..
+cd ../
+sleep 2
 bash Horus.sh
 else 
 printf "\n"
